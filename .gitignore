@@ -1,0 +1,28 @@
+# Build artifacts
+build/
+
+# Visual Studio/MSBuild intermediates
+**/*.obj
+**/*.pdb
+**/*.idb
+**/*.ilk
+**/*.exe.embed.manifest
+**/*.exe.intermediate.manifest
+**/*.pch
+**/*.log
+**/*.tlog
+**/*.lastbuildstate
+**/*.vs*
+*.VC.db
+*.VC.opendb
+
+# CMake extras
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Testing/
+Makefile
+
+# OS files
+.DS_Store
+Thumbs.db
